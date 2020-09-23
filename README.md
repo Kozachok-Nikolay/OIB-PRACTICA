@@ -28,5 +28,48 @@
 -Тактику защиты объектов, информации, персонала предприятия от преступных посягательств.
 -Характеристику технических средств (системы сигнализации, связи, защиты информации, пр.).
 # Практическая №2
-![alt text](https://prnt.sc/umo4mz)
- 
+Для работы был взят сайт: loyalty-world.ru
+***
+чтобы узнать ip - адрес пользуемся командами ping и nslookup в консоли.
+![Screenshot_1](https://user-images.githubusercontent.com/70717332/94065559-feaf4100-fdf3-11ea-9e68-337481259934.png)
+***
+ip - адрес сайта: 185.165.123.206
+***
+далее изучение nslookup, начнем с команды -query=mx
+![Screenshot_2](https://user-images.githubusercontent.com/70717332/94066618-64e89380-fdf5-11ea-9872-4518bad7c674.png)
+Это значит, что у данного домена серверная почта: mail-s19.1gb.ru
+***
+затем идем к -query=soa
+![Screenshot_3](https://user-images.githubusercontent.com/70717332/94066960-dd4f5480-fdf5-11ea-854f-c4c9f4f74fcf.png)
+если перевести с английского, отсюда получаем информацию о:
+первичное название сервера, почту администратора сервера домена, серийный номер, период времени (в секундах), через который вторичный DNS-сервер отправит запрос первичному, чтобы проверить, поменялся ли серийный номер. Интервал для повторного соединения с первичным DNS-сервером, если он по каким-то причинам не смог ответить на запрос. И так далее...
+***
+далее назначение работы команды -query=nx я так и не понял
+***
+последней командой стала:-type=any, мне выдало следующее:
+![Screenshot_4](https://user-images.githubusercontent.com/70717332/94068151-7cc11700-fdf7-11ea-9584-74705bf4976c.png)
+информации нет, а значит и суда нет
+***
+изучение трафика сайт можно произвести с помощью wireshark и фильтра ip.src == 185.165.123.206(ip сайта)
+![Screenshot_5](https://user-images.githubusercontent.com/70717332/94069209-dc6bf200-fdf8-11ea-8619-4b49852dd221.png)
+***
+ip.dst отвечает за трафик отправленый на ip
+![Screenshot_6](https://user-images.githubusercontent.com/70717332/94069519-6916b000-fdf9-11ea-8643-f4b3d9f5aa3f.png)
+***
+теперь мы знаем, что подключение к сайту происходит через порт 80, а робтает через протокол HTTP и TCP
+***
+ip.addr отвечает за фильтрацию трафика, в котором упоминается этот ip
+![Screenshot_7](https://user-images.githubusercontent.com/70717332/94069869-fb1eb880-fdf9-11ea-8bdf-22387f9b57a3.png)
+***
+udp.src - не работает 
+![Screenshot_8](https://user-images.githubusercontent.com/70717332/94069947-1c7fa480-fdfa-11ea-8406-01d818046369.png)
+***
+arp.src.hw_mac используется для фильтрации по ARP протокола по mac - адресу
+![Screenshot_9](https://user-images.githubusercontent.com/70717332/94070232-81d39580-fdfa-11ea-959e-c63dc254169d.png)
+***
+eth.dst - фильтр трафика по mac - адресу получателя
+![Screenshot_10](https://user-images.githubusercontent.com/70717332/94070459-e5f65980-fdfa-11ea-9de2-000726628ab7.png)
+***
+eth.src - фильтр трафика по mac - адресу отправителя
+![Screenshot_11](https://user-images.githubusercontent.com/70717332/94070851-949a9a00-fdfb-11ea-8f58-16f00c23a95a.png)
+
