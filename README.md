@@ -77,7 +77,7 @@ eth.src - фильтр трафика по mac - адресу отправите
 
 # Практическая №3
 
-Анализ метаданных:
+### Анализ метаданных:
 
 Для анализа я взял случайную фотографию с компьютера своей мамы:
 
@@ -88,6 +88,215 @@ eth.src - фильтр трафика по mac - адресу отправите
 С помощью утилиты ExifViewer можно узнать следующую информацию:
 
 дату создания снимка: 15.06.2017, почту копирайта: firatdemirr@gmail.com, модель камеры: Nikon D700, и софт обработки фотографии: Adobe photoshop cs 3
+
+
+
+### Sql Server и FOCA:
+
+Сервер работает, фока тоже, значит пришло время красть метаданные с сайтов.
+
+Для проверки я взял сайт www.nalog.ru
+
+После поиска, для скачивание было доступно 1500+ документов, я выбрал несколько случайных для анализа и изучения метаданных.
+
+
+![Screenshot_12](https://user-images.githubusercontent.com/70717332/94720978-d6789280-035d-11eb-82ef-0bf3475475cd.png)
+
+
+Посмотрим метаданные нескольких файлов: 
+
+![Screenshot_13](https://user-images.githubusercontent.com/70717332/94721993-52bfa580-035f-11eb-83f6-c1769f8a04ef.png)
+
+
+
+![Screenshot_14](https://user-images.githubusercontent.com/70717332/94721996-53583c00-035f-11eb-87d3-d2c6e93284e2.png)
+
+
+
+![Screenshot_15](https://user-images.githubusercontent.com/70717332/94721998-53f0d280-035f-11eb-9575-167a9a37be7c.png)
+
+
+
+![Screenshot_16](https://user-images.githubusercontent.com/70717332/94721999-53f0d280-035f-11eb-9654-ced873eecff9.png)
+
+
+По данным метаданным можно понять:
+
+Автор документа: Кузьмина Ирина Витальевна
+
+Дата создания файла: 04.12.2014
+
+Софт для создания: Microsoft office
+
+Операционная система автора: Windows XP
+
+
+Сам документ не очень интересный:
+
+
+![Screenshot_17](https://user-images.githubusercontent.com/70717332/94722333-d5e0fb80-035f-11eb-9350-43cf95987c16.png)
+
+
+Из общего анализа фоки можно узнать:
+
+
+![Screenshot_21](https://user-images.githubusercontent.com/70717332/94722660-4851db80-0360-11eb-83f6-fa800c72c2f5.png)
+
+
+
+![Screenshot_18](https://user-images.githubusercontent.com/70717332/94722663-48ea7200-0360-11eb-908b-85026d6044a5.png)
+
+
+
+![Screenshot_19](https://user-images.githubusercontent.com/70717332/94722664-49830880-0360-11eb-86b1-d7c9deb98448.png)
+
+
+
+![Screenshot_20](https://user-images.githubusercontent.com/70717332/94722667-49830880-0360-11eb-8702-769c715d6197.png)
+
+
+![Screenshot_21](https://user-images.githubusercontent.com/70717332/94726787-67ec0280-0366-11eb-9bbd-63e10fbcf07e.png)
+
+
+Имена всех пользователей, ОСи (у кого-то даже Windows 98), Софты для использования и т.д.
+
+### Ccleaner:
+
+С данным ПО я знаком, поэтому сходу создаем дубликат файлов чтобы проверить работоспособность поиска дубликатов:
+
+
+![Screenshot_22](https://user-images.githubusercontent.com/70717332/94726702-4854da00-0366-11eb-9721-5056804e82f0.png)
+
+Оригиналы я оставил на рабочем столе, а их копии поместил в папку. К сожалению, программе не удалось найти их, как бы я не старался :(
+
+
+
+![Screenshot_23](https://user-images.githubusercontent.com/70717332/94726708-49860700-0366-11eb-8a59-0103e3e7c196.png)
+
+
+
+Далее я решил удалить компилятор с помощью Ccleaner:
+
+
+
+![Screenshot_24](https://user-images.githubusercontent.com/70717332/94726710-49860700-0366-11eb-9660-2d5124080aaf.png)
+
+
+
+![Screenshot_25](https://user-images.githubusercontent.com/70717332/94726711-4a1e9d80-0366-11eb-98a4-b9d66856aa18.png)
+
+
+Удаление прошло успешно!
+
+
+
+Следом проводим сканирование системы:
+
+
+
+![Screenshot_26](https://user-images.githubusercontent.com/70717332/94726712-4a1e9d80-0366-11eb-989b-8e7f0c3e3e8d.png)
+
+
+
+В итоге программа нашла приличное количество мусора (464 МБ)
+
+### RStudio:
+
+Запустив программу, я решил просканировать съемный носитель, потому что сканирование основного диска длилось бы очень долго
+
+
+
+![Screenshot_28](https://user-images.githubusercontent.com/70717332/94729984-34f83d80-036b-11eb-90bd-a0a824360ea0.png)
+
+После сканирования было показано множество удаленных файлов, я решил поставить сортировку по датам:
+
+
+
+![Screenshot_29](https://user-images.githubusercontent.com/70717332/94730494-fa42d500-036b-11eb-961a-0145f1034231.png)
+
+Теперь переходим к эксперементальной части
+
+Создаем текстовый файл на флешке и удаляем:
+
+
+
+![Screenshot_30](https://user-images.githubusercontent.com/70717332/94730822-7b9a6780-036c-11eb-9395-f7a10e8f5833.png)
+
+
+
+Проводоим повтороное сканирование: 
+
+
+
+![Screenshot_31](https://user-images.githubusercontent.com/70717332/94731000-c5834d80-036c-11eb-968a-e745b20ab1d3.png)
+
+
+
+Искомый файл найден: 
+
+
+
+![Screenshot_32](https://user-images.githubusercontent.com/70717332/94731719-eac48b80-036d-11eb-882c-e7e7088d5a9c.png)
+
+
+Восстанавливем на рабочий стол: 
+
+
+
+![Screenshot_33](https://user-images.githubusercontent.com/70717332/94731886-2a8b7300-036e-11eb-81ba-6df191e7e4b4.png)
+
+
+
+Файл был успешно восстановлен:
+
+
+
+![Screenshot_34](https://user-images.githubusercontent.com/70717332/94731956-43942400-036e-11eb-918f-a994cbeadec2.png)
+
+
+Повторяем процедурю создания и удаления текстовика, пробуем почистить все Ccleaner'ом:
+
+
+
+![Screenshot_35](https://user-images.githubusercontent.com/70717332/94732350-d634c300-036e-11eb-938d-1edd56a677c2.png)
+
+
+
+Ждем:
+
+
+
+![Screenshot_36](https://user-images.githubusercontent.com/70717332/94732352-d6cd5980-036e-11eb-8e94-293ddbce01e9.png)
+
+
+
+После долгих 30ти минут вылезло окошко с успешным завершением стирания диска, но я забыл сделать скрин :(
+
+Возвращаемся к восстанавлению...
+
+
+
+![Screenshot_37](https://user-images.githubusercontent.com/70717332/94735422-683eca80-0373-11eb-910b-f7d18d81c892.png)
+
+
+
+После восстановления я увидел следующее: 
+
+
+
+![Screenshot_38](https://user-images.githubusercontent.com/70717332/94736242-98d33400-0374-11eb-80d7-50baa01004d8.png)
+
+
+
+Сначала я подумал, что Cclenaer никак не подействовал, но.... после восстановления, я увидел внутренности текстовика:
+
+
+
+![Screenshot_39](https://user-images.githubusercontent.com/70717332/94736353-c7e9a580-0374-11eb-8fa3-1df1f5def96a.png)
+
+
+
+Внутри ничего не было, и название тоже почему-то изменилось, значит Ccleaner просто сделал битый текстовик
 
 
 
