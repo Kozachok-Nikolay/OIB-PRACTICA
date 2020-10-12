@@ -73,7 +73,7 @@ eth.dst - фильтр трафика по mac - адресу получател
 eth.src - фильтр трафика по mac - адресу отправителя
 ![Screenshot_11](https://user-images.githubusercontent.com/70717332/94070851-949a9a00-fdfb-11ea-8f58-16f00c23a95a.png)
 
-
+---
 
 # Практическая №3
 
@@ -298,5 +298,93 @@ eth.src - фильтр трафика по mac - адресу отправите
 
 Внутри ничего не было, и название тоже почему-то изменилось, значит Ccleaner просто сделал битый текстовик
 
+---
+# Практиеческая №4
 
+### Шифрование в windows. EFS
+
+Создаем папку с текстовым документом для эксперимента:
+
+
+
+![Screenshot_2](https://user-images.githubusercontent.com/70717332/95769728-01010e80-0cc1-11eb-9672-7ef9c9c6234e.png)
+
+
+
+![Screenshot_3](https://user-images.githubusercontent.com/70717332/95770034-740a8500-0cc1-11eb-82c3-36b593ee3875.png)
+
+
+
+Шифруем папку:
+
+
+
+![Screenshot_4](https://user-images.githubusercontent.com/70717332/95770035-74a31b80-0cc1-11eb-8d66-c79e55c980da.png)
+
+
+
+Успешно:
+
+
+
+![Screenshot_5](https://user-images.githubusercontent.com/70717332/95770036-74a31b80-0cc1-11eb-85a4-97cbd92c8008.png)
+
+
+
+Создаем вторую учетную запись для теста:
+
+
+
+![Screenshot_6](https://user-images.githubusercontent.com/70717332/95770037-753bb200-0cc1-11eb-84f2-8ff132684df9.png)
+
+
+
+Заходим под второй учеткой и пробуем открыть зашифрованную папку:
+
+
+
+![Screenshot_8](https://user-images.githubusercontent.com/70717332/95770459-17f43080-0cc2-11eb-9af0-cdb0fb415746.png)
+
+
+
+Как мы видим, безуспешно :)
+
+Теперь займемся экспортом сертификата:
+
+
+
+![Screenshot_9](https://user-images.githubusercontent.com/70717332/95770041-75d44880-0cc1-11eb-8d7c-baf5dc7cbff4.png)
+
+
+
+Заходим в реестр:
+
+
+
+![Screenshot_10](https://user-images.githubusercontent.com/70717332/95770042-75d44880-0cc1-11eb-8781-a8f231e7e51d.png)
+
+
+
+Сохраняем\экспортируем:
+
+
+
+![Screenshot_11](https://user-images.githubusercontent.com/70717332/95770047-766cdf00-0cc1-11eb-9037-bf0e3f867e0b.png)
+
+
+
+
+![Screenshot_12](https://user-images.githubusercontent.com/70717332/95770048-77057580-0cc1-11eb-8507-036676cc7951.png)
+
+
+
+![Screenshot_13](https://user-images.githubusercontent.com/70717332/95770033-7371ee80-0cc1-11eb-864a-0612483b4119.png)
+
+
+
+Успешно :)
+
+
+
+### Cipher
 
