@@ -384,7 +384,7 @@ eth.src - фильтр трафика по mac - адресу отправите
 
 Успешно :)
 
-
+---
 
 ### Cipher
 
@@ -436,3 +436,88 @@ eth.src - фильтр трафика по mac - адресу отправите
 
 
 
+Заходим с другого пользователя и открываем файл, который только что сохранили:
+
+
+
+![Screenshot_20](https://user-images.githubusercontent.com/70717332/95773945-1fb6d380-0cc8-11eb-998b-1a46962dcff6.png)
+
+
+
+Теперь идем к зашифрованному файлу и пробуем открыть:
+
+
+
+![Screenshot_21](https://user-images.githubusercontent.com/70717332/95773942-1d547980-0cc8-11eb-89b7-492709887461.png)
+
+
+
+Успешно! :)
+
+---
+
+### BitLocker
+
+Вставляем влешку и создаем файл для теста: 
+
+
+
+![Screenshot_22](https://user-images.githubusercontent.com/70717332/95775411-0e22fb00-0ccb-11eb-9920-ace65418165f.png)
+
+
+
+Включаем БитЛокер:
+
+
+
+![Screenshot_23](https://user-images.githubusercontent.com/70717332/95775415-0ebb9180-0ccb-11eb-96a0-d1db0d5131f1.png)
+
+
+
+Шифруем:
+
+
+
+![Screenshot_24](https://user-images.githubusercontent.com/70717332/95775418-0f542800-0ccb-11eb-89a6-9d19e566e33f.png)
+
+
+
+![Screenshot_25](https://user-images.githubusercontent.com/70717332/95775419-0f542800-0ccb-11eb-87a4-982a655af135.png)
+
+
+
+![Screenshot_26](https://user-images.githubusercontent.com/70717332/95775422-0fecbe80-0ccb-11eb-91d7-c31c7aa29192.png)
+
+
+
+![Screenshot_27](https://user-images.githubusercontent.com/70717332/95775423-10855500-0ccb-11eb-9537-952cae348021.png)
+
+
+
+![Screenshot_28](https://user-images.githubusercontent.com/70717332/95775424-111deb80-0ccb-11eb-8b0d-70e2c2b0f760.png)
+
+
+
+Вытаскиваем влешку и вставляем обратно:
+
+
+
+![Screenshot_29](https://user-images.githubusercontent.com/70717332/95775425-111deb80-0ccb-11eb-9e60-d5be2a0d120e.png)
+
+
+
+Как мы видим, шифрование флешки прошло успешно
+
+При открытии просит ввести пароль:
+
+
+
+![Screenshot_30](https://user-images.githubusercontent.com/70717332/95775427-11b68200-0ccb-11eb-8029-d31dbac25097.png)
+
+
+
+Вводим пароль, заходим и создаем текстовик с фамилией и именем (так написано в задании):
+
+
+
+![Screenshot_31](https://user-images.githubusercontent.com/70717332/95775428-11b68200-0ccb-11eb-9efc-b4b3e675e9a4.png)
