@@ -2,7 +2,7 @@
 ### Перемотка к 3 практической:
  https://github.com/Kozachok-Nikolay/OIB-PRACTICA/blob/master/README.md#практическая-3
 ### Перемотка к 4 практической: 
- https://github.com/Kozachok-Nikolay/OIB-PRACTICA#практиеческая-4
+ https://github.com/Kozachok-Nikolay/OIB-PRACTICA/blob/master/README.md#практиеческая-4
 # Практическая №1
 Компания ООО «Umbrella». Управление компании использует телефонную связь и защищенное интернет соединение. Бухгалтерия использует телефонную связь и защищенное интернет соединение.
 Штат – 100 сотрудников. 
