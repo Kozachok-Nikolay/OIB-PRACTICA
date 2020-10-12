@@ -1,5 +1,5 @@
 # OIB-PRACTICA
-### Перемотка к 3 практической:
+### [Перемотка к 3 практической(КЛИКАБЕЛЬНО)](https://github.com/Kozachok-Nikolay/OIB-PRACTICA/blob/master/README.md#практическая-3)
  ### [Пример](https://github.com/Kozachok-Nikolay/OIB-PRACTICA/blob/master/README.md#практическая-3)
 ### Перемотка к 4 практической: 
  https://github.com/Kozachok-Nikolay/OIB-PRACTICA/blob/master/README.md#практиеческая-4
