@@ -1,7 +1,7 @@
 # OIB-PRACTICA
 ОИБ Практика
 ### Перемотка к 3 практической:
-
+ https://github.com/Kozachok-Nikolay/OIB-PRACTICA/blob/master/README.md#практическая-3
 ### Перемотка к 4 практической: 
  https://github.com/Kozachok-Nikolay/OIB-PRACTICA#практиеческая-4
 # Практическая №1
