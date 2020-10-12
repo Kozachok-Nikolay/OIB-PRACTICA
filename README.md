@@ -388,3 +388,51 @@ eth.src - фильтр трафика по mac - адресу отправите
 
 ### Cipher
 
+Создаем новые файлы для теста:
+
+
+
+![Screenshot_14](https://user-images.githubusercontent.com/70717332/95772208-0bbda280-0cc5-11eb-8058-06ba3055fafd.png)
+
+
+
+Шифруем их с помощью команды cipher /e /s:E:\shifr :
+
+
+
+![Screenshot_15](https://user-images.githubusercontent.com/70717332/95772210-0bbda280-0cc5-11eb-80eb-09bed2713485.png)
+
+
+
+Проверяем статус шифровки командой cipher /s:E:\shifr :
+
+
+
+![Screenshot_16](https://user-images.githubusercontent.com/70717332/95772212-0c563900-0cc5-11eb-9e7c-de952d7a20f9.png)
+
+
+
+Посмотрим подробные сведения командой cipher /c /s:E:\shifr :
+
+
+
+![Screenshot_17](https://user-images.githubusercontent.com/70717332/95772216-0ceecf80-0cc5-11eb-9f66-8d4ba21c662c.png)
+
+
+
+Теперь, командой cipher /X сохраним резервную копию сертификата EFS: 
+
+
+
+![Screenshot_18](https://user-images.githubusercontent.com/70717332/95772218-0ceecf80-0cc5-11eb-9520-6a13c49579ff.png)
+
+
+
+Успешно:
+
+
+
+![Screenshot_19](https://user-images.githubusercontent.com/70717332/95772207-0b250c00-0cc5-11eb-886f-4a37decc5d3a.png)
+
+
+
