@@ -521,3 +521,79 @@ eth.src - фильтр трафика по mac - адресу отправите
 
 
 ![Screenshot_31](https://user-images.githubusercontent.com/70717332/95775428-11b68200-0ccb-11eb-9efc-b4b3e675e9a4.png)
+
+---
+### VeraCrypt
+
+Создаем в очередной раз папку с текстовиком для теста и шифруем:
+
+
+
+![Screenshot_32](https://user-images.githubusercontent.com/70717332/95779354-9062ed80-0cd2-11eb-9a0c-a35f4b8852f2.png)
+
+
+
+Используем шифрование AES: 
+
+
+
+![Screenshot_33](https://user-images.githubusercontent.com/70717332/95779358-91941a80-0cd2-11eb-9611-a65fec7572af.png)
+
+
+
+Выбираем размер и пароль:
+
+
+
+![Screenshot_34](https://user-images.githubusercontent.com/70717332/95779361-922cb100-0cd2-11eb-898f-fe614751a92e.png)
+
+
+
+![Screenshot_35](https://user-images.githubusercontent.com/70717332/95779363-92c54780-0cd2-11eb-8a9a-aaf65f4300fc.png)
+
+
+
+Фиксируем процесс и разъяренно двигаем мышкой:
+
+
+
+![Screenshot_36](https://user-images.githubusercontent.com/70717332/95779366-948f0b00-0cd2-11eb-8ff9-b8b3deb0b698.png)
+
+
+
+Готово:
+
+
+
+![Screenshot_37](https://user-images.githubusercontent.com/70717332/95779368-9527a180-0cd2-11eb-8680-3e508df06381.png)
+
+
+
+![Screenshot_38](https://user-images.githubusercontent.com/70717332/95779369-9658ce80-0cd2-11eb-9943-503a5db0121a.png)
+
+
+
+Смонтируем том:
+
+
+
+![Screenshot_39](https://user-images.githubusercontent.com/70717332/95779346-8e992a00-0cd2-11eb-88be-bab2da725136.png)
+
+
+
+Ждемс:
+
+
+
+![Screenshot_40](https://user-images.githubusercontent.com/70717332/95779352-9062ed80-0cd2-11eb-8050-9ec66db05b9a.png)
+
+
+
+Успешно смонтировали:
+
+
+
+![Screenshot_41](https://user-images.githubusercontent.com/70717332/95780228-2b0ffc00-0cd4-11eb-94cc-ff6174992270.png)
+
+
+
