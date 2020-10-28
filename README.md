@@ -599,3 +599,276 @@ eth.src - фильтр трафика по mac - адресу отправите
 
 
 Файл в репозиторий добавил, пароль 12345
+
+---
+# Практическая №5
+---
+## 1.7 Определение типа hash
+
+Устанавливаем утилиту:
+
+
+
+![Screenshot_1](https://user-images.githubusercontent.com/70717332/97482129-cb1d8480-1966-11eb-831d-fa428ed72213.png)
+
+
+
+Заходим в шадоу:
+
+
+![Screenshot_2](https://user-images.githubusercontent.com/70717332/97482257-fef8aa00-1966-11eb-8c8a-a581c9cb9d07.png)
+
+
+
+Мотаем вниз и копируем hash. Узнаем тип:
+
+
+
+![Screenshot_3](https://user-images.githubusercontent.com/70717332/97483227-3f0c5c80-1968-11eb-997d-b1c3772dc7a6.png)
+
+## 1.8 Создание hash в Linux
+
+Добавляем нового пользователя:
+
+
+
+![Screenshot_4](https://user-images.githubusercontent.com/70717332/97483267-49c6f180-1968-11eb-83e5-43cd3fc4080e.png)
+
+
+
+Заменяем хэш в новом юзере и обновляем пароль:
+---
+![Screenshot_5](https://user-images.githubusercontent.com/70717332/97483415-74b14580-1968-11eb-880c-d4a2113f341b.png)
+
+
+
+После добавления нового пользователя были небольшие проблемы с правами:
+---
+![Screenshot_6](https://user-images.githubusercontent.com/70717332/97483775-ef7a6080-1968-11eb-9d02-2bd1b6b7ab8a.png)
+
+
+
+Но я справился и добрался до хэша(после танцев с бубном :D):
+---
+![Screenshot_7](https://user-images.githubusercontent.com/70717332/97483839-028d3080-1969-11eb-9bd9-a0fd610b9dcd.png)
+
+
+
+Рассчитываем хэшированный пароль:
+---
+![Screenshot_8](https://user-images.githubusercontent.com/70717332/97483904-1a64b480-1969-11eb-8d23-b44b180f7eb5.png)
+
+
+
+## 1.9 Проверка контрольных сумм
+---
+Копируем "Group" в домашнюю папку:
+---
+![Screenshot_9](https://user-images.githubusercontent.com/70717332/97485104-bb07a400-196a-11eb-9760-797fd3bb8851.png)
+
+
+
+Подсчитаем и сохрним котрольную сумму:
+---
+![Screenshot_10](https://user-images.githubusercontent.com/70717332/97485136-c9ee5680-196a-11eb-8184-eaa0ed8d3ff8.png)
+
+
+
+![Screenshot_11](https://user-images.githubusercontent.com/70717332/97485138-ca86ed00-196a-11eb-9c70-84237d43f712.png)
+
+
+
+Удалим первую строку и проверим:
+---
+![Screenshot_12](https://user-images.githubusercontent.com/70717332/97485142-ca86ed00-196a-11eb-8ec8-af7e0928fc15.png)
+
+
+
+![Screenshot_13](https://user-images.githubusercontent.com/70717332/97485145-ca86ed00-196a-11eb-80ec-c0fda4b45fc1.png)
+
+
+
+![Screenshot_14](https://user-images.githubusercontent.com/70717332/97485147-cb1f8380-196a-11eb-9992-a7673f23da89.png)
+
+
+
+Как мы видим, файл поврежден.
+
+Поменяем название и сравним еще раз:
+---
+![Screenshot_15](https://user-images.githubusercontent.com/70717332/97485132-c955c000-196a-11eb-86de-a95a22f78a87.png)
+
+
+
+Значение не поменялось.
+## 2.1 Шифрование с помощью пароля
+Создаем и шифруем файл:
+---
+![Screenshot_16](https://user-images.githubusercontent.com/70717332/97487621-2737d700-196e-11eb-935a-2b88bf4a9e06.png)
+
+
+
+Не знаю, похоже ли это на расшифорвку:
+---
+![Screenshot_17](https://user-images.githubusercontent.com/70717332/97487613-269f4080-196e-11eb-9bd5-1f2b58f9046a.png)
+
+
+
+## 2.1.2 Шифрование с использованием ключей
+
+Создаем файл и ключ к нему
+---
+
+
+
+![Screenshot_17](https://user-images.githubusercontent.com/70717332/97491238-edb59a80-1972-11eb-9fff-6575078bc172.png)
+
+
+
+![Screenshot_18](https://user-images.githubusercontent.com/70717332/97491242-ee4e3100-1972-11eb-83c5-b6471d9aeeea.png)
+
+
+
+![Screenshot_19](https://user-images.githubusercontent.com/70717332/97491243-eee6c780-1972-11eb-9b41-976e8ddb3b1c.png)
+
+
+
+![Screenshot_20](https://user-images.githubusercontent.com/70717332/97491245-eee6c780-1972-11eb-9bd7-153c22abd37f.png)
+
+
+
+![Screenshot_21](https://user-images.githubusercontent.com/70717332/97491246-ef7f5e00-1972-11eb-8cb9-4982cdacd6a4.png)
+
+
+
+Смотрим доступные:
+---
+![Screenshot_22](https://user-images.githubusercontent.com/70717332/97491249-ef7f5e00-1972-11eb-8837-4fa4360bf973.png)
+
+
+
+Экспортируем:
+---
+![Screenshot_23](https://user-images.githubusercontent.com/70717332/97491250-f017f480-1972-11eb-9674-26c64d88a7a1.png)
+
+
+
+Импортируем:
+---
+![Screenshot_24](https://user-images.githubusercontent.com/70717332/97491251-f017f480-1972-11eb-848a-1545f83c05c9.png)
+
+
+
+Редактируем ключ:
+---
+![Screenshot_25](https://user-images.githubusercontent.com/70717332/97491253-f017f480-1972-11eb-9756-b8e392164db8.png)
+
+
+
+Устанавливаем уровень доверия (trust):
+---
+![Screenshot_26](https://user-images.githubusercontent.com/70717332/97491255-f0b08b00-1972-11eb-9fb2-e77deb71c6c2.png)
+
+
+
+## 2.1.3 Подписи и шифрование
+Создаем текстовик и далем подпись для него:
+---
+![Screenshot_27](https://user-images.githubusercontent.com/70717332/97491256-f0b08b00-1972-11eb-8a2f-11fe1ee796b3.png)
+
+
+
+До изменения: 
+---
+![Screenshot_28](https://user-images.githubusercontent.com/70717332/97491257-f1492180-1972-11eb-8bfe-c5f4a9cc04de.png)
+
+
+
+Меняем файл:
+---
+![Screenshot_29](https://user-images.githubusercontent.com/70717332/97492183-40dc1d00-1974-11eb-9c2b-4868de9d9a27.png)
+
+
+
+После:
+---
+![Screenshot_30](https://user-images.githubusercontent.com/70717332/97492186-4174b380-1974-11eb-8e40-336840d97c0a.png)
+
+## Отправка письма
+Скачиваем весь софт
+
+Добавляем ключ:
+---
+![Screenshot_31](https://user-images.githubusercontent.com/70717332/97497673-ee9efa00-197b-11eb-8408-c9c87c95c73e.png)
+
+
+
+Делаем все по инструкции:
+---
+![Screenshot_32](https://user-images.githubusercontent.com/70717332/97497674-ef379080-197b-11eb-83b0-032e97367072.png)
+
+
+
+Экспортируем ключ:
+---
+![Screenshot_33](https://user-images.githubusercontent.com/70717332/97497675-efd02700-197b-11eb-9e0a-80ca15e7784a.png)
+
+
+
+Заходим на сайт:
+---
+![Screenshot_34](https://user-images.githubusercontent.com/70717332/97497676-efd02700-197b-11eb-8d12-43b1be00b0c7.png)
+
+
+
+Заливаем ключ:
+---
+![Screenshot_35](https://user-images.githubusercontent.com/70717332/97497677-f068bd80-197b-11eb-89ef-ee2f26e39456.png)
+
+
+
+Успешно:
+---
+![Screenshot_36](https://user-images.githubusercontent.com/70717332/97497681-f1015400-197b-11eb-9cb8-0ee2f9d15c0d.png)
+
+
+
+Находим его здесь же:
+---
+![Screenshot_37](https://user-images.githubusercontent.com/70717332/97497682-f1015400-197b-11eb-91fb-ecd84e4a11e1.png)
+
+
+
+Успешно:
+---
+![Screenshot_38](https://user-images.githubusercontent.com/70717332/97497684-f199ea80-197b-11eb-8e9c-c6798232dce4.png)
+
+
+
+Пишем, проверяем, отправляем:
+---
+![Screenshot_39](https://user-images.githubusercontent.com/70717332/97497685-f199ea80-197b-11eb-809a-b159e333d6c5.png)
+
+
+
+![Screenshot_40](https://user-images.githubusercontent.com/70717332/97497686-f2328100-197b-11eb-982f-abbb9e89f431.png)
+
+
+
+Что мне пришло на почту (windows\телефон):
+---
+![Screenshot_41](https://user-images.githubusercontent.com/70717332/97497690-f2328100-197b-11eb-88bc-f5aa154b208f.png)
+
+
+
+Что будет, если открыть на линуксе:
+---
+![Screenshot_42](https://user-images.githubusercontent.com/70717332/97497691-f2cb1780-197b-11eb-916f-d0143f40f813.png)
+
+
+
+
+
+
+
+
