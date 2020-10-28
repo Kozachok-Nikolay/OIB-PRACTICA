@@ -722,10 +722,6 @@ eth.src - фильтр трафика по mac - адресу отправите
 
 
 
-![Screenshot_17](https://user-images.githubusercontent.com/70717332/97491238-edb59a80-1972-11eb-9fff-6575078bc172.png)
-
-
-
 ![Screenshot_18](https://user-images.githubusercontent.com/70717332/97491242-ee4e3100-1972-11eb-83c5-b6471d9aeeea.png)
 
 
