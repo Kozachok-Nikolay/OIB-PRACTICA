@@ -862,7 +862,7 @@ eth.src - фильтр трафика по mac - адресу отправите
 ---
 ![Screenshot_42](https://user-images.githubusercontent.com/70717332/97497691-f2cb1780-197b-11eb-916f-d0143f40f813.png)
 
-
+Доработка: Письмо на эмэил mobil.mirea@gmail.com отправил
 
 
 
