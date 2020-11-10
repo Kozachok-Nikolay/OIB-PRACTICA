@@ -962,3 +962,250 @@ eth.src - фильтр трафика по mac - адресу отправите
 
 
 
+### RDP
+
+
+
+Что ж, я скачал RDP на телефон, поставил ползунок на пк чтобы все работало, добавляем пользователя по имени: 
+
+
+
+![10](https://user-images.githubusercontent.com/70717332/98717870-b1d0fb00-239e-11eb-9daa-874993d883f4.jpg)
+
+
+
+Логинимся при подключении: 
+
+
+
+![11](https://user-images.githubusercontent.com/70717332/98717955-d036f680-239e-11eb-8494-6ac2aacc8eef.jpg)
+
+
+
+Успешный успех:
+
+
+
+![9](https://user-images.githubusercontent.com/70717332/98718005-e2b13000-239e-11eb-838c-4f9f7b6b5973.jpg)
+
+
+
+Честно, даже не знал что в винде уже есть встроенный сервис для удаленного доступа, это стало для меня открытием.
+
+
+
+### SSH Linux
+
+Погружаемся в кали линух
+
+Вроде запустил: 
+
+
+![Screenshot_6](https://user-images.githubusercontent.com/70717332/98719153-72a3a980-23a0-11eb-9c7e-c0c15eec7b37.png)
+
+
+
+Точно запустил:
+
+
+
+![Screenshot_7](https://user-images.githubusercontent.com/70717332/98719346-af6fa080-23a0-11eb-8ba4-bc21502a9f22.png)
+
+
+
+Копируем, защищаем от записи:
+
+
+
+![Screenshot_8](https://user-images.githubusercontent.com/70717332/98719825-49374d80-23a1-11eb-98ba-7c0104fb74c9.png)
+
+
+Меняем порт на 2222:
+
+
+
+![Screenshot_9](https://user-images.githubusercontent.com/70717332/98722428-29545980-23a2-11eb-88e3-11356ce7824c.png)
+
+
+
+Убираем рут права:
+
+
+
+![Screenshot_10](https://user-images.githubusercontent.com/70717332/98722746-7c2e1100-23a2-11eb-919d-2e493596f65b.png)
+
+
+
+Баннер и приветствие я оставил дефолтные.
+
+Пробуем подключить локального юзера:
+
+
+
+![Screenshot_11](https://user-images.githubusercontent.com/70717332/98723898-05921300-23a4-11eb-8df0-06e9e5462e44.png)
+
+
+
+Порт 2222 почему-то не нашелся, подключился к 22, надеюсь не страшно.
+
+Ищем свой inet:
+
+
+
+![Screenshot_12](https://user-images.githubusercontent.com/70717332/98723997-26f2ff00-23a4-11eb-94f4-edbc2053a5a1.png)
+
+
+
+Подключаемся уже сами:
+
+
+
+![Screenshot_13](https://user-images.githubusercontent.com/70717332/98724212-746f6c00-23a4-11eb-82c7-90d7c3c5d2ba.png)
+
+
+
+### SSH Windows
+
+Скачиваем и запускаем PuTTY, вводим адрес и порт:
+
+
+
+![Screenshot_14](https://user-images.githubusercontent.com/70717332/98724964-8bfb2480-23a5-11eb-8c62-117839bf4ce4.png)
+
+
+
+Как я понимаю, успешно подключился:
+
+
+
+![Screenshot_15](https://user-images.githubusercontent.com/70717332/98725262-f613c980-23a5-11eb-8f3c-058f739f33c1.png)
+
+
+
+С помощью Bitvise все ок:
+
+
+
+![Screenshot_18](https://user-images.githubusercontent.com/70717332/98726798-06c53f00-23a8-11eb-801c-06b387e21a31.png)
+
+
+
+### Генерация ключа на Linux
+
+Генерируем ключ:
+
+
+
+![Screenshot_19](https://user-images.githubusercontent.com/70717332/98727052-63285e80-23a8-11eb-82af-eec035ca7d4c.png)
+
+
+
+### Генерация на Windows
+
+Генерируем в PuTTY:
+
+
+
+![Screenshot_20](https://user-images.githubusercontent.com/70717332/98727645-4c363c00-23a9-11eb-8a01-519f3d142589.png)
+
+
+
+Ключи сохранил:
+
+
+
+![Screenshot_21](https://user-images.githubusercontent.com/70717332/98728035-f1511480-23a9-11eb-8c6f-1bc27c263c99.png)
+
+
+
+### Копия публичного ключа на сервер Linux
+
+Копируем собственно говоря:
+
+
+
+![Screenshot_22](https://user-images.githubusercontent.com/70717332/98730713-bf41b180-23ad-11eb-8448-17cab4eaf719.png)
+
+
+
+### Аутентификация с помощью ключа на Linux
+
+Собственно говоря, входим используя ключ:
+
+
+
+![Screenshot_23](https://user-images.githubusercontent.com/70717332/98731161-5d357c00-23ae-11eb-89c8-8ca95b56870f.png)
+
+
+
+### Аутентификация с помощью ключа на Windows
+
+К серверу подключился, ключ уже стоял:
+
+
+
+![Screenshot_24](https://user-images.githubusercontent.com/70717332/98731633-109e7080-23af-11eb-9d20-b9e8095efffd.png)
+
+
+
+Путь к ключу указал:
+
+
+
+![Screenshot_25](https://user-images.githubusercontent.com/70717332/98732178-db465280-23af-11eb-9a05-7d3641f00557.png)
+
+
+
+:( Но почему-то в доступе было отказано:
+
+
+
+![Screenshot_26](https://user-images.githubusercontent.com/70717332/98732181-dc777f80-23af-11eb-84aa-b6a84948c2a3.png)
+
+
+
+### UPD:
+
+Сначала не увидел задание по поводу порта, баннера и текста приветствия, все поменял:
+
+
+
+![Screenshot_31](https://user-images.githubusercontent.com/70717332/98738633-126d3180-23b9-11eb-8ebd-8a10459dff15.png)
+
+
+
+в принципе, все действия, которые я проводил, не поменялись, только вместо порта 22 мне приходилось бы использовать 20012
+
+### Получаем VPS (VDS) сервер от Google
+
+Развернул сервер:
+
+
+
+![Screenshot_27](https://user-images.githubusercontent.com/70717332/98734807-8dcbe480-23b3-11eb-9500-e34a2f5d5087.png)
+
+
+
+Ключ поменял:
+
+
+
+![Screenshot_33](https://user-images.githubusercontent.com/70717332/98742165-fd939c80-23be-11eb-9dc5-0640ec4c9571.png)
+
+
+
+Настройку провел:
+
+
+
+![Screenshot_32](https://user-images.githubusercontent.com/70717332/98739453-6e848580-23ba-11eb-937e-3ffc6c7f4ca6.png)
+
+
+
+
+
+
+
+
+
+
