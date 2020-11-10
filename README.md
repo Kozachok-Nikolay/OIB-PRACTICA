@@ -864,8 +864,100 @@ eth.src - фильтр трафика по mac - адресу отправите
 
 Доработка: Письмо на эмэил mobil.mirea@gmail.com отправил
 
+---
+# Практическая №6
+---
+### TeamViewer
+
+Установили, автозагрузочку поставили, регистрацию прошли, к работе все готово:
 
 
+
+![Screenshot_1](https://user-images.githubusercontent.com/70717332/98712871-ee4d2880-2397-11eb-836a-9c77c9a6f1be.png)
+
+
+
+Скачиваем на телефон, логинимся: 
+
+
+
+![Ubtsma9zEYw](https://user-images.githubusercontent.com/70717332/98714805-6583bc00-239a-11eb-942b-c4be3acda4a7.jpg)
+
+
+
+Подключаемся к компу по логину (Удаленное управление): 
+
+
+
+![PAQ2od3bmiE](https://user-images.githubusercontent.com/70717332/98714995-9cf26880-239a-11eb-97b3-0a76e8d7b74e.jpg)
+
+
+
+Вау ого: 
+
+
+
+![3QQv5u88iwI](https://user-images.githubusercontent.com/70717332/98715120-c57a6280-239a-11eb-9ef4-53c67bf7d0bc.jpg)
+
+
+
+Могу играть в игры прям на учебе:
+
+
+
+![T6-ROrxeQf0](https://user-images.githubusercontent.com/70717332/98715167-d5924200-239a-11eb-9469-018a6f125857.jpg)
+
+
+
+Теперь попробуем подключиться для передачи файлов, для этого создадим на компе папочку для теста: 
+
+
+
+![Screenshot_2](https://user-images.githubusercontent.com/70717332/98715272-f65a9780-239a-11eb-9a52-973bc32f4c0a.png)
+
+
+
+После того как подключились с телефона, находим эту папочку:
+
+
+
+![LbfdMi6Lo1g](https://user-images.githubusercontent.com/70717332/98715401-24d87280-239b-11eb-9999-a29d11660c45.jpg)
+
+
+
+![RJNEnosqpvw](https://user-images.githubusercontent.com/70717332/98715352-12f6cf80-239b-11eb-9931-103e6b376f04.jpg)
+
+
+
+Перекидываем фотки (фотку): 
+
+
+
+![rRLQAEqvizg](https://user-images.githubusercontent.com/70717332/98715492-4b96a900-239b-11eb-8095-a1ac9c0abb32.jpg)
+
+
+
+![1t1RHfmQKqc](https://user-images.githubusercontent.com/70717332/98715636-7bde4780-239b-11eb-90d3-36be7607ef33.jpg)
+
+
+
+Тем временем на пк висит данное оповещение: 
+
+
+
+![Screenshot_3](https://user-images.githubusercontent.com/70717332/98715526-56e9d480-239b-11eb-9c6b-27dad0cbd2f9.png)
+
+
+
+Успех:
+
+
+
+![Screenshot_4](https://user-images.githubusercontent.com/70717332/98715669-8862a000-239b-11eb-9d10-cb71238c24c6.png)
+
+
+
+оу еа ![Screenshot_5](https://user-images.githubusercontent.com/70717332/98715718-97495280-239b-11eb-955c-d63e5f773079.png)
 
 
 
