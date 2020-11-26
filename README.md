@@ -3,7 +3,7 @@
 ### [Перемотка к практической №4 (КЛИКАБЕЛЬНО)](https://github.com/Kozachok-Nikolay/OIB-PRACTICA/blob/master/README.md#практиеческая-4)
 ### [Перемотка к практической №5 (КЛИКАБЕЛЬНО)](https://github.com/Kozachok-Nikolay/OIB-PRACTICA/blob/master/README.md#практическая-5) 
 ### [Перемотка к практической №6 (КЛИКАБЕЛЬНО)](https://github.com/Kozachok-Nikolay/OIB-PRACTICA/blob/master/README.md#практическая-6)
-### [Перемотка к практической №6 (КЛИКАБЕЛЬНО)](https://github.com/Kozachok-Nikolay/OIB-PRACTICA/blob/master/README.md#практическая-7)
+### [Перемотка к практической №7 (КЛИКАБЕЛЬНО)](https://github.com/Kozachok-Nikolay/OIB-PRACTICA/blob/master/README.md#практическая-7)
 
 # Практическая №1
 Компания ООО «Umbrella». Управление компании использует телефонную связь и защищенное интернет соединение. Бухгалтерия использует телефонную связь и защищенное интернет соединение.
@@ -1425,7 +1425,75 @@ eth.src - фильтр трафика по mac - адресу отправите
 
 
 
+Регестрируемся, настриваем все как надо:
 
+
+
+![Screenshot_26](https://user-images.githubusercontent.com/70717332/100388020-8571db80-303a-11eb-87cf-f750580dbb89.png)
+
+
+
+Отправляем письмо:
+
+
+
+![Screenshot_27](https://user-images.githubusercontent.com/70717332/100388021-860a7200-303a-11eb-95dd-56bac3ded56f.png)
+
+
+
+Успешно:
+
+
+
+![Screenshot_28](https://user-images.githubusercontent.com/70717332/100388173-e9949f80-303a-11eb-9f60-739b703550be.png)
+
+
+
+Теперь пробуем поставить сайт
+
+Скачиваем шаблон, меняем под себя:
+
+
+
+![Screenshot_29](https://user-images.githubusercontent.com/70717332/100388961-1fd31e80-303d-11eb-9f05-bfa5bfbf9697.png)
+
+
+
+Пробуем запустить, поставил порт 20012:
+
+
+
+![Screenshot_30](https://user-images.githubusercontent.com/70717332/100389922-db954d80-303f-11eb-961a-df9655e291eb.png)
+
+
+
+Теперь настройка сервера:
+
+
+
+![Screenshot_31](https://user-images.githubusercontent.com/70717332/100389925-dcc67a80-303f-11eb-82de-031e6f1bee1e.png)
+
+
+
+Настроили, запускаем:
+
+
+
+![Screenshot_32](https://user-images.githubusercontent.com/70717332/100394358-f2db3780-304d-11eb-8c95-944730fc6b80.png)
+
+
+
+Так как у меня яблоко, просим одногруппника помочь с проверкой
+
+Он, конечно же, успешно соглашается:
+
+
+
+![wsohNn33ngk](https://user-images.githubusercontent.com/70717332/100394425-2ae27a80-304e-11eb-8ee2-c8c19ee5b4dc.jpg)
+
+
+
+Успех?
 
 
 
