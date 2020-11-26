@@ -1200,6 +1200,112 @@ eth.src - фильтр трафика по mac - адресу отправите
 
 ![Screenshot_32](https://user-images.githubusercontent.com/70717332/98739453-6e848580-23ba-11eb-937e-3ffc6c7f4ca6.png)
 
+### Практическая №7
+
+### Мобильная сеть
+
+Скачиваем программу чтобы ловить вышки и запускаем
+
+Ловим вышку:
+
+
+
+![oEAEYTK9M-c](https://user-images.githubusercontent.com/70717332/100363293-93f5ce00-300d-11eb-96ac-dbc1e3ff966d.jpg)
+
+
+
+Находим ее на сайте:
+
+
+
+![Screenshot_1](https://user-images.githubusercontent.com/70717332/100363633-141c3380-300e-11eb-84da-75262e6edc6e.png)
+
+
+
+Успех
+
+### Linux
+
+Сканируем сеть:
+
+
+
+![Screenshot_2](https://user-images.githubusercontent.com/70717332/100367508-5eec7a00-3013-11eb-8700-7798b9f191a2.png)
+
+
+
+Чекаем мак адресы:
+
+
+
+![Screenshot_3](https://user-images.githubusercontent.com/70717332/100368475-afb0a280-3014-11eb-9b03-a7308128bc0a.png)
+
+
+
+Меняем:
+
+
+
+![Screenshot_4](https://user-images.githubusercontent.com/70717332/100368663-ec7c9980-3014-11eb-915a-aeed588e241d.png)
+
+
+
+Идем далее
+
+Смотрим свой айпи на 2ip.ru:
+
+
+
+![Screenshot_5](https://user-images.githubusercontent.com/70717332/100369389-e0dda280-3015-11eb-8fa3-6449a383396e.png)
+
+
+
+Смотрим на линухе:
+
+
+
+![Screenshot_7](https://user-images.githubusercontent.com/70717332/100371960-a37b1400-3019-11eb-94ca-ab23a89e4ac3.png)
+
+
+
+Находим, ставим прокси:
+
+
+
+![Screenshot_8](https://user-images.githubusercontent.com/70717332/100374478-6ca6fd00-301d-11eb-9746-8588d1f4be77.png)
+
+
+
+Успешно сменилось:
+
+
+
+![Screenshot_9](https://user-images.githubusercontent.com/70717332/100374468-67e24900-301d-11eb-9f27-f4559c1420d2.png)
+
+
+
+Ставим на линух:
+
+
+
+![Screenshot_10](https://user-images.githubusercontent.com/70717332/100375465-e2f82f00-301e-11eb-8169-364b0bf37510.png)
+
+
+
+Проверяем:
+
+
+
+![Screenshot_11](https://user-images.githubusercontent.com/70717332/100375502-f0adb480-301e-11eb-9540-5ede1b7485f9.png)
+
+
+
+Не получилось, скорее всего из-за самого прокси, нужно просто поискать другой и методом подбора находить, но это очень долго
+
+Идем дальше
+
+
+
 
 
 
