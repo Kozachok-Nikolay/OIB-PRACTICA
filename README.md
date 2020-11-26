@@ -3,6 +3,8 @@
 ### [Перемотка к практической №4 (КЛИКАБЕЛЬНО)](https://github.com/Kozachok-Nikolay/OIB-PRACTICA/blob/master/README.md#практиеческая-4)
 ### [Перемотка к практической №5 (КЛИКАБЕЛЬНО)](https://github.com/Kozachok-Nikolay/OIB-PRACTICA/blob/master/README.md#практическая-5) 
 ### [Перемотка к практической №6 (КЛИКАБЕЛЬНО)](https://github.com/Kozachok-Nikolay/OIB-PRACTICA/blob/master/README.md#практическая-6)
+### [Перемотка к практической №6 (КЛИКАБЕЛЬНО)](https://github.com/Kozachok-Nikolay/OIB-PRACTICA/blob/master/README.md#практическая-7)
+
 # Практическая №1
 Компания ООО «Umbrella». Управление компании использует телефонную связь и защищенное интернет соединение. Бухгалтерия использует телефонную связь и защищенное интернет соединение.
 Штат – 100 сотрудников. 
@@ -1200,7 +1202,7 @@ eth.src - фильтр трафика по mac - адресу отправите
 
 ![Screenshot_32](https://user-images.githubusercontent.com/70717332/98739453-6e848580-23ba-11eb-937e-3ffc6c7f4ca6.png)
 
-### Практическая №7
+# Практическая №7
 
 ### Мобильная сеть
 
@@ -1303,6 +1305,135 @@ eth.src - фильтр трафика по mac - адресу отправите
 Не получилось, скорее всего из-за самого прокси, нужно просто поискать другой и методом подбора находить, но это очень долго
 
 Идем дальше
+
+### TOR
+
+Скачиваем
+
+Добавляем ссылки репозитория:
+
+
+
+![Screenshot_12](https://user-images.githubusercontent.com/70717332/100376596-e2609800-3020-11eb-8004-a76b45764300.png)
+
+
+
+Проводим манипуляции с ключем за кадром Ы
+
+Проверили подключение, статус, все работает:
+
+
+![Screenshot_13](https://user-images.githubusercontent.com/70717332/100380994-0b852680-3029-11eb-81cb-d2d71145288a.png)
+
+
+
+Ставим Веб-сервер:
+
+
+
+![Screenshot_14](https://user-images.githubusercontent.com/70717332/100380996-0c1dbd00-3029-11eb-875c-f08a10b7d75c.png)
+
+
+
+Успешно:
+
+
+
+![Screenshot_15](https://user-images.githubusercontent.com/70717332/100380999-0cb65380-3029-11eb-98b8-98c0be956104.png)
+
+
+
+
+Рекомментируем и модифицируем следующие строчки:
+
+
+
+![Screenshot_16](https://user-images.githubusercontent.com/70717332/100381466-168c8680-302a-11eb-8f28-0e5e193fce2d.png)
+
+
+
+Проверяем работоспособность:
+
+
+
+![Screenshot_17](https://user-images.githubusercontent.com/70717332/100381470-17251d00-302a-11eb-9db7-5edcb3518d20.png)
+
+
+
+Вроде работает
+
+Генерация ссылки .onion:
+
+
+
+![Screenshot_18](https://user-images.githubusercontent.com/70717332/100381471-17251d00-302a-11eb-9938-c1b47f93e62e.png)
+
+
+
+
+Берем ее из hostname, пробуем:
+
+
+
+![Screenshot_19](https://user-images.githubusercontent.com/70717332/100383503-ca901080-302e-11eb-801d-ddfc0e44c898.png)
+
+
+
+Антиуспех :(
+
+
+
+Пробуем стартануть все это дело с помощью SSH сервера
+
+Ставим свой порт
+
+Пробуем:
+
+
+
+![Screenshot_22](https://user-images.githubusercontent.com/70717332/100386451-67a27780-3036-11eb-84c5-81e21aa4413c.png)
+
+
+
+Антиуспех (2) :(
+
+Честно не знаю почему, пробовал и так и сяк, не получается :(
+
+### I2P
+
+Устанавливаем, запускаем:
+
+
+
+![Screenshot_23](https://user-images.githubusercontent.com/70717332/100386820-88b79800-3037-11eb-9aab-c0981e57905c.png)
+
+
+
+Проводим настройку:
+
+
+
+![Screenshot_24](https://user-images.githubusercontent.com/70717332/100386822-89502e80-3037-11eb-851f-f24724eceef0.png)
+
+
+
+Настраиваем браузер:
+
+
+
+![Screenshot_25](https://user-images.githubusercontent.com/70717332/100386939-d207e780-3037-11eb-9f32-bca6eaa20e0c.png)
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
